@@ -18,17 +18,21 @@
 # collection data types
 # lists - mutable, duplicate values allowed, ordered
 
-# l = [65, 87, 97, 37, 87, 27, 87]
+l = [65, 87, 97, 37, 87, 27, 87]
 
-# print("Index", l[-4])
+print("Index", l[-4])
 
 # l[0] = 67
 
 # l.append(27)
-
 # l.insert(1, 17)
 
 # l.remove(87)
+
+print("List",l)
+
+
+
 
 # l.pop(0)
 
