@@ -7,10 +7,33 @@
 # print("set", s)
 # print("list", l)
 
-# print("Ready")
-# print("Travel")
-# print("Data analytics class")
+# def da_class():
+#     print("Ready")
+#     print("Travel")
+#     print("Data analytics class")
 
+
+# da_class()
+
+
+# def Attendanance(name):
+#     print(f"Present {name}")
+
+# Attendanance("Naslin")
+# Attendanance("Prakash")
+# Attendanance("Sathya")
+
+# def add(a):
+#     print("A",a)
+
+# def add2(b):
+#     return b
+
+# x = add(2)
+# y = add2(6)
+
+# print("x",x)
+# print("y",y)
 # def welcome():
 #     print("Welcome to python")
 
@@ -47,25 +70,41 @@
 # With argument with return
 
 # def add(a,b):
-#     c = a+b
-#     return c
+#     return a+b
 
-# a = add(5,10)
-# b = add(15,1)
 
-# print("Addition", a)
-# print("Addition", b)
+# a = add(5,7)
+# b = add(25,17)
+
+# print("a",a)
+# print("b",b)
 
 # without argument with return
 
-# def add():
-#     a = 5
-#     b = 7
-#     return a + b
+# def num():
+#     a = 2
+#     b = 3
+#     c = a+b
+#     return c
 
-# print("Addition", add())
+# n = num()
 
+# print("n",n)
+    
 # without argument without return
+
+# def num():
+#     a = 2
+#     print("a",a)
+
+# x=num()
+# print("x",x)
+
+
+
+
+
+
 
 # a = 4
 # b = 8
@@ -77,7 +116,7 @@
 
 # with argument without return
 
-def add(a,b):
-    print("Addition", a+b)
+# def attendanance(summaname):
+#     print(f"Present {summaname}")
 
-add(6,8)
+# attendanance("Naslin")

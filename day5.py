@@ -18,30 +18,23 @@
 # collection data types
 # lists - mutable, duplicate values allowed, ordered
 
-l = [65, 87, 97, 37, 87, 27, 87]
+# l = [65, 87, 97, 37, 87, 27, 87]
 
-print("Index", l[-4])
+# print("Index", l[-4])
 
 # l[0] = 67
 
 # l.append(27)
+
 # l.insert(1, 17)
 
 # l.remove(87)
 
-print("List",l)
-
-
-
-
-# l.pop(0)
-
+# l.pop()
+# l.pop(-2)
 # print("Slice",l[-3:])
-
 # del l[2:]
-
 # l.extend([57, 47, 27])
-
 # print("length",len(l))
 
 # print("Count", l.count(87))
@@ -49,6 +42,35 @@ print("List",l)
 # print("Min",min(l))
 # print("Max",max(l))
 # print("Sum", sum(l))
+
+# print("Average", sum(l)/len(l))
+
+# print("l",l)
+
+
+
+# a = int(input("Enter your marks in tamil: "))
+# b = int(input("Enter your marks in english: "))
+# c = int(input("Enter your marks in maths: "))
+# d = int(input("Enter your marks in science: "))
+# e = int(input("Enter your marks in social: "))
+
+# marks = []
+
+# for i in range(5):
+#     score = int(input(f"Enter marks {i+1}: "))
+#     marks.append(score)
+# print("Marks", marks)
+
+
+
+# print("marks", marks)
+# print("total", sum(marks))
+# l.pop(0)
+
+
+
+
 
 # print("Average", sum(l)/len(l))
 # l.reverse()
