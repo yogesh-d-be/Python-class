@@ -38,6 +38,20 @@
 # b = num(3)
 # print("Square",b)
 
-square = lambda x,y: (x**2, y**3)
-a = square(3, 2)
-print("Square", a)
+# square = lambda x,y: (x**2, y**3)
+# a = square(3, 2)
+# print("Square", a)
+
+
+
+
+
+# def square(n):
+#     return n*n
+
+
+
+square = lambda x: x*x
+
+
+print("square", square(5))

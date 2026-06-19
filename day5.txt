@@ -1,0 +1,57 @@
+# if(condition):
+#     statements
+
+# remote_signal = input("Is remoted triggered or not: (y/n): ")
+
+# if(remote_signal.lower() == "y" or remote_signal.capitalize() == "Yes"):
+#     print("Door open. Students get in")
+# else:
+#     print("Remote signal is not detected. You cant get in")
+
+
+# remote_signal = input("Is remote signal triggered or not? (Y/N): ")
+
+# if(remote_signal.lower() == "y" or remote_signal.lower() == "yes"):
+#     print("Door open")
+# elif(remote_signal.lower() == "n" or remote_signal.lower() == "no"):
+#     print("Door not open")
+# else:
+#     print("Remote may be missed.")
+
+
+
+
+    # 16 -22 ---> cool
+    # 23 - 28 ---> normal
+    # 29 - 31 ---> warm
+    # 32 , above 32 ---> hot
+
+
+    # Loops
+
+    # while(condition):
+    #     statements
+
+
+# i = 1
+
+# while(i < 11):
+#     print("Number: ",i)
+#     i += 1
+
+
+
+# attempt = 0
+# max_attempts = 3
+
+# while(True):
+#     password = input("Enter your password: ")
+#     if(attempt != max_attempts and password == "123"):
+#         print("Login successful")
+#         break
+#     elif(attempt == max_attempts):
+#         print("You are reach maximum attempts")
+#         break
+#     else:
+#         attempt += 1
+#         print("Try again")

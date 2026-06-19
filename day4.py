@@ -84,3 +84,91 @@
 #     if(i==5):
 #         continue
 #     print(i)
+
+
+
+
+# i = 0
+
+# while i < 6:
+#     print(i)
+#     i+=1
+
+
+# for i in range(6):
+#     print(i)
+# for i in range(1,11):
+#     print(i)
+# for i in range(1,11,2):
+#     print(i)
+# for i in range(10,1,-1):
+#     print(i)
+
+
+
+#March and June
+
+# Logical operators
+
+# and 
+# or
+# not
+
+# a = 10
+# b = 4
+
+# print("Logical and: ", a < b and a!=b)
+# print("Logical or: ", a < b or a!=b)
+# print("Logical not: ", not(a!=b))
+
+# Assignment operator
+
+# a = 10
+
+# +=
+# -=
+# *=
+# /=
+# %=
+# //=
+# **=
+
+# rooban_account = 100000
+
+# # rooban_account = rooban_account - 30000 #70k
+
+# rooban_account -= 30000
+
+# # rooban_account = 40000 + rooban_account 
+
+# rooban_account += 40000
+
+# print("account balance", rooban_account)
+
+# a = 10
+
+# a+=14
+# a-=7
+# a*=6
+# a/=3
+# a%=3
+# a//=2
+# a**=2
+
+# print("a",a)
+
+
+# course = " welcOme to da class "
+# skills = "java*python*nodejs"
+
+# print(course[9])
+# print(course[12:16])
+# print(course[-7:-4])
+
+# print(course.upper())
+# print(course.lower())
+# print(course.capitalize())
+# print(course.title())
+# print(course.strip())
+
+# print(skills.split("*"))

@@ -48,15 +48,28 @@
 
 # l = [1, 2, 3, 4, 5, 6, 8, 9]
 
-
 # even = list(filter(lambda x: x%2 == 0 ,l))
 
 # print("Even", even)
 
 
-l = [1,2,3,5,10]
+# l = [1,2,3,5,10]
 
 
-result = list(map(lambda x: x**2, filter(lambda x: x%2 == 0, l)))
+# result = list(map(lambda x: x**2, filter(lambda x: x%2 == 0, l)))
 
-print("res", result)
+# print("res", result)
+
+
+
+# l = [10, 20, 30, 40]
+
+# l2 = []
+
+# for i in l:
+#     l2.append(i*2)
+
+
+
+# l2 = list(map(lambda i:i*2, l))
+# print(l2)

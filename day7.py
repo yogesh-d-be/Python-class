@@ -13,6 +13,8 @@
 #     print("Data analytics class")
 
 
+
+# da_class()
 # da_class()
 
 
@@ -84,8 +86,8 @@
 # def num():
 #     a = 2
 #     b = 3
-#     c = a+b
-#     return c
+
+#     return a+b
 
 # n = num()
 

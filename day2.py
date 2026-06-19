@@ -1,5 +1,5 @@
-import sys
-print(sys.executable)
+# import sys
+# print(sys.executable)
 
 #data types
 
@@ -120,3 +120,159 @@ print(sys.executable)
 # s.replace("Analytics", "Science")
 
 # print("S",s)
+
+
+
+
+
+# ---------March batch--------
+
+# i = 90
+# f = 89.9
+# b = True
+# s = "yo"
+# c = 3+4j
+# n = None
+
+
+
+# print("the data type of i is", type(i), "so value of i is", i)
+# print(f"the data type of i is {type(i)} so value of i is {i}")
+
+
+# name = input("Enter your name: ")
+# age = int(input("Enter age: "))
+# fee = float(input("Enter fee: "))
+# courseStatus = bool(input("Enter status (True/False): "))
+
+"""
+jjjjjjjj
+kkkkl
+
+
+kkkkll
+jklkkllk
+"""
+
+# print("Name:",name)
+# print("Age:",age)
+# print("Fee:",fee)
+# print("Status:",courseStatus)
+
+# print("NameType", type(name), "ageType", type(age), type(fee), type(courseStatus))
+
+
+
+skill = "Data Analytics"
+
+# print("Length", len(skill))
+# print(skill[6])
+# print(skill[0:9])
+# print(skill[-2])
+# print(skill[-6:-2])
+
+
+
+
+#variables
+
+# name = "Vijay"
+
+# print(name)
+
+
+#data types
+
+# int - 9
+# float - 9.7
+# string - "name"
+# boolean - True or False
+# None - 
+# complex - 2+5j
+
+# age =18
+# marks = 75.5
+# name = "Yogesh"
+# isOnline = False
+# value = None
+# formula = 3+4j
+
+# print(type(marks))
+# print(type(age))
+# print(type(name))
+# print(type(isOnline))
+# print(type(value))
+# print(type(formula))
+
+
+# 2value
+# value2
+
+# first Name
+# first_name
+
+
+# name = input()
+
+
+# name = input("Enter your name: ")
+# city = input("Enter your city: ")
+# courseFee = input("Enter your fees: ")
+
+# print("Name: ",name)
+# print("City: ",city)
+# print("Course Fees: ",courseFee)
+
+# print("Types of name", type(name))
+# print("Types of city", type(city))
+# print("Types of courseFee", type(courseFee))
+
+
+# a = int(input("Enter value 1: "))
+# b = int(input("Enter value 2: "))
+# print("a",a)
+# print("b",b)
+# print("total", a+b)
+
+# print("type of a", type(a))
+
+# city = input("Enter your city: ")
+# print("I love ",city,"." "I am living in ",city,".")
+# print(f"I love {city}. I am living in {city}.")
+
+
+#Operators
+
+# Arithmetic operators
+# +
+# -
+# *
+# /
+# % - modulo division
+# // - floor division
+# ** - exponetation
+
+# a = input("Enter a value: ")
+# b = input("Enter b value: ")
+
+# print("a", a)
+# print("b", b)
+# print("type of a", type(a))
+# print("type of b", type(b))
+
+
+
+
+
+
+# a = int(input("Enter a value: "))
+# b = int(input("Enter b value: "))
+
+# print("Addition: ", a+b)
+# print("Subraction: ", a-b)
+# print("Multiplication: ", a*b)
+# print("Division: ", a/b) 
+# print("Modulo Division: ", a%b)
+# print("Floor Division: ", a//b) 
+# print("Exponentation: ", a**b)
+

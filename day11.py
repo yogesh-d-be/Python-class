@@ -27,18 +27,18 @@
 #     writer.writerows(data)
 
 
-import csv
+# import csv
 
-students = [
-    {"name": "John", "mark": 90},
-    {"name": "Asha", "mark": 95}
-]
+# students = [
+#     {"name": "John", "mark": 90},
+#     {"name": "Asha", "mark": 95}
+# ]
 
-with open("students.csv", "w", newline="") as file:
-    fields = ["name", "mark"]
-    writer = csv.DictWriter(file, fieldnames=fields)
-    writer.writeheader()
-    writer.writerows(students)
+# with open("students.csv", "w", newline="") as file:
+#     fields = ["name", "mark"]
+#     writer = csv.DictWriter(file, fieldnames=fields)
+#     writer.writeheader()
+#     writer.writerows(students)
 
 
 

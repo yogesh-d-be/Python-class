@@ -1,6 +1,7 @@
-# file = open("file.txt", "r")
-# c = file.read()
-# print("data",c)
+# # file = open("file.txt", "r")
+# # c = file.read()
+# # # file.close()
+# # print("data",c)
 
 
 # with open("file.txt", "r") as file:
@@ -10,7 +11,7 @@
 
 # file = open("file.txt", "w")
 
-# file.write("\n Python")
+# file.write("\n Programming")
 
 # file.close()
 
@@ -62,14 +63,14 @@
 #     print(f"Remaining text is: '{remaining_content}'")
 
 
-# try:
-#     with open("abc.txt", "r") as file:
-#         print(file.read())
+try:
+    with open("abc.txt", "r") as file:
+        print(file.read())
 
-# except FileNotFoundError:
-#     print("File not found")
+except FileNotFoundError:
+    print("File not found")
 
 
-file = open("file.txt", "r")
-for i in file:
-    print(i)
+# file = open("file.txt", "r")
+# for i in file:
+#     print(i)

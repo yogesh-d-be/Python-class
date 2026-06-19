@@ -198,3 +198,145 @@ else:
 #     print(b,"is greater") 
 # else:
 #     print(c,"is greater") 
+
+
+
+# Arithmetic operators
+
+# +
+# -
+# *
+# /
+# %
+# //
+# **
+
+# a = 2
+# b=4
+
+# print("Add", a+b)
+# print("Sub", a-b)
+# print("Mul", a*b)
+# print("Division", a/b)
+# print("Modulo division", a%b)
+# print("Floor division", a//b)
+# print("Exponentation", a**b)
+
+
+# Comparison operators
+
+# ==
+# !=
+# >
+# <
+# >=
+# <=
+
+
+# a = 7
+# b = 10
+
+# print("Equal to", a == b) 
+# print("Not Equal to", a != b)
+# print("Greater than", a > b)
+# print("Less than", a < b)
+# print("Greater than or equal to", a >= b)
+# print("Less than or equal to", a <= b)
+
+
+# Logical Operators
+# and 
+# or
+# not
+
+# a = 7
+# b = 10
+
+# print("Logical and", (a < b) and (b > a))
+# print("Logical or", (a == b) or ( a != b))
+# print("Logical not", not(a==b))
+
+
+# Assignment Operators
+
+# +=
+# -=
+# *=
+# /=
+# %=
+# //=
+# **=
+
+# a =5
+
+# a += 5 #-->  a = a+5
+# a-=2
+# a*=4
+# a//=2
+# a/=2
+# a%=3
+# a**=3
+# print("Result:",a)
+
+
+#conditional statements
+# if(condition):
+#     statements
+
+# city = input("Enter your tourist place: ")
+
+# if(city == "chennai"):
+#     print("Welcome to chennai")
+
+
+# attendanance = int(input("Enter your attendance in percentage: "))
+
+# if(attendanance > 70):
+#     print("You are eligible to write a semester exam")
+# else:
+#     print("You are not eligible to write a semester exam")
+
+
+
+# age = int(input("Enter your age: "))
+# has_license = input("Do you have license(y/n): ")
+
+# if(age>18 and has_license == "y"):
+#     print("You can drive")
+# elif(age>18 and has_license == "n"):
+#     print("You can't drive")
+# else:
+#     print("You are under age. You cannot drive")
+
+
+# age = int(input("Enter your age: "))
+
+# if(age>=18):
+#     has_license = input("Do you have license(y/n): ")
+#     if(has_license == "y"):
+#         print("You can drive")
+#     elif(has_license == "n"):
+#         print("You can't drive")
+# else:
+#     print("You are under age. You cannot drive")
+
+
+#March and June
+#Comparison or relational operators
+# ==
+# !=
+# >
+# <
+# >=
+# <=
+
+
+# a = int(input("Enter a value: "))
+# b = int(input("Enter b value: "))
+
+# print("Equal to", a==b)
+# print("Not Equal to", a!=b)
+# print("Greater than", a>b)
+# print("Less than", a<b)
+# print("Greater than or Equal to", a>=b)
+# print("Less than or Equal to", a<=b)
