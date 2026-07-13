@@ -1,0 +1,76 @@
+# MArch and june
+
+# exception handling
+
+
+# try:
+#     amount = int(input("Enter your amount: "))
+#     print("amount", amount)
+#     n = [10,11,12,13]
+#     print(n[4])
+# except Exception as e:
+#     print(e)
+
+
+# try:
+#     amount = int(input("Enter your amount: "))
+#     print("amount", amount)
+# except:
+#     print("Invalid input value")
+# else:
+#     print("Amount collected successfully")
+
+# try:
+#     age = int(input("Enter your age: "))
+#     print("age", age)
+# except:
+#     print("Invalid input value")
+# finally:
+#     print("age data program run successfully")
+
+
+# age = int(input("Enter your age: "))
+
+# if age < 0:
+#     raise ValueError("Invalid age data")
+# if age > 16:
+#     print("You are allowed to watch the movie")
+# else:
+#     print("Not allowed")
+
+
+print("Please insert your card!")
+
+print("Select your language: English")
+
+balance = 10000
+
+try:
+    account = input("Select your account: S/C ")
+    if(account.lower() == "s"):
+        print("Savings account")
+    elif(account.lower() == "c"):
+        print("Current account")
+    else:
+        raise Exception("Please select valid account type")
+
+    amount = int(input("Enter your amount: "))
+
+    if(amount > balance):
+        raise ValueError("Insufficent balance")
+    elif(amount < 100):
+        raise ValueError("Please enter valid amount value")
+
+    pin = input("Enter your pin: ")
+
+    if(pin != "1111"):
+        raise ValueError("Please enter valid pin number")
+    
+    print("Please collect your cash: ", amount)
+
+except Exception as err:
+    print(err)
+else:
+    print("Amount collected successfully")
+finally:
+    print("Please take your card. Thank you!")

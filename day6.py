@@ -94,6 +94,24 @@ s = {2, 8, 9, 10, 3, 2, 3, 3}
 #     i+=1
 
 # for i in range(11):
+#     print("for", i)
+
+# for i in range(5, 11):
+#     print("i",i)
+
+# i = 0
+
+# while(i < 11):
+#     print("i",i)
+#     i+=2
+
+# for i in range(0, 11, 2):
+#     print("i",i)
+
+# for i in range(10, 0, -1):
+#     print("Count down", i)
+
+# for i in range(11):
 #     print("i", i)
 
 # for i in range(0, 21):
@@ -113,6 +131,41 @@ s = {2, 8, 9, 10, 3, 2, 3, 3}
 
 # for i in range(10, 0, -1):
 #     print("Count down", i)
+
+
+#collection data types:
+
+# list
+
+# ordered duplicate allow mutable indexed
+products = [ "Laptop" ,"bag", "mouse", "pendrive", "mouse"]
+# price = [1000, 600, 567, 231, 222]
+
+# product = list(["lap", "mob"])
+
+# print(type(products))
+# print(type(product))
+
+# print("list", products[1])
+# products[1] = "cable"
+# products.append("tv")
+# products.insert(2, "tv")
+# products.remove("mouse")
+# products.pop(3)
+
+
+# print("list", len(products))
+# print("min", min(products))
+# print("max", max(products))
+# print("min", min(price))
+# print("max", max(price))
+# print("sum", sum(price))
+# print("len", len(price))
+
+# print("Average", sum(price)/len(price))
+
+
+
 
 
 #Collection data types:
@@ -156,12 +209,12 @@ s = {2, 8, 9, 10, 3, 2, 3, 3}
 # in
 # not in
 
-amazon_cart_list = [ "laptop", "bag", "mouse", "pendrive"]
+# amazon_cart_list = [ "laptop", "bag", "mouse", "pendrive"]
 
-search = input("Enter your search product: ")
+# search = input("Enter your search product: ").lower()
 
-if(search not in amazon_cart_list):
-    print(f"{search} doesnt exist. Please add the product")
-# else:
-#     print(f"{search} doesnt exist. Please add the product")
+# if(search not in amazon_cart_list):
+    
+#     print(f"{search} doesnt exists. Please add the product in cart")
+
 

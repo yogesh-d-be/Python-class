@@ -1,0 +1,81 @@
+
+# March and June
+
+# csv
+
+# with open("students.csv") as file:
+#     print("file", file.read())
+
+
+# import csv
+
+# with open("students.csv", "r") as file:
+#     reader = csv.reader(file)
+#     next(reader)
+#     for row in reader:
+#         print(row)
+        # print("Mark column", row[1])
+        # print("City column", row[2])
+
+
+
+# with open("da-students.csv", "w", newline="") as file:
+#     writer = csv.writer(file)
+
+    # writer.writerow(["Name", "Age", "City"])
+    # writer.writerows([["Name", "Age", "City"], ["Yo", "18", "Chennai"]])
+
+
+# with open("students.csv", "r") as file:
+#     reader = csv.DictReader(file)
+
+#     for row in reader:
+#         print(row)
+        # print("Name", row['Name'])
+        # print("Name", row.get('Name'))
+        # print("Mark", row[])
+        # print("City", row[])
+
+# students = [
+#     {'Name': 'John', 'Mark': '90', 'City': 'Chennai'},
+# {'Name': 'Asha', 'Mark': '95', 'City': 'Madurai'},
+# {'Name': 'Rahul', 'Mark': '85', 'City': 'Coimbatore'}
+# ]
+
+# with open("da-students.csv", "w", newline="") as file:
+#     writer = csv.DictWriter(file, fieldnames=["Name", "Mark", "City"])
+    # writer.writerow({'Name': 'John', 'Mark': '90', 'City': 'Chennai'})
+    # writer.writerows(students)
+    
+
+
+# json
+
+# student = {
+#     "Name": "Yogesh",
+#     "Mark":90,
+#     "Comment":{
+#         "account" : "Keerthika",
+#         "Comment": {
+#             "message":  "Class is boring 😴",
+#              "Like" : "Joel",
+#         "Reply":"Yes sir. class is sleepy"
+#         }
+       
+       
+#     } 
+# }
+
+# import json
+
+#write
+# with open("students.json", "w", encoding="utf-8") as file:
+#     json.dump(student,file,indent=4)
+
+#read
+# with open("students.json", "r") as file:
+#     print(json.load(file))
+
+
+
+

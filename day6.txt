@@ -1,0 +1,79 @@
+ For loops
+
+# i = 1
+
+# while(i < 11):
+#     print("i",i)
+#     i+=1
+
+# for i in range(11):
+#     print("i", i)
+
+# for i in range(0, 21):
+#     print("i",i)
+
+# i=0
+
+# while(i<=20):
+#     # i+=2
+#     if(i%2 == 0):
+#         print("Even numbers: ",i)
+#     i+=2
+
+
+# for i in range(0, 21, 2):
+#     print("Even: ", i)
+
+# for i in range(10, 0, -1):
+#     print("Count down", i)
+
+
+#Collection data types:
+
+# list
+
+#ordered, mutable, duplicates allowed
+
+# l = [ "Laptop", "bag", "mouse", "pendrive", "Laptop"]
+# l2 = [13,32,86,4,87, 55,76]
+
+# marks = [98, 95, 99, 100, 89]
+
+# print("percentage", (sum(marks)/500)*100)
+
+# print("l", l)
+# print("lists", l[0])
+# l.append("cable")
+# l.insert(1,"tv")
+# l[1] = "School bag"
+# l.remove("bag")
+# l.pop(3)
+# print("lenght",len(l))
+# print("min", min(l2))
+# print("max", max(l2))
+# print("sum", sum(l2))
+# print("length", len(l2))
+# print("Average", sum(l2)/len(l2))
+
+# print("min",min(l))
+# print("max",max(l))
+
+
+
+# print("lists",l)
+
+
+
+#membership operators
+
+# in
+# not in
+
+amazon_cart_list = [ "laptop", "bag", "mouse", "pendrive"]
+
+search = input("Enter your search product: ")
+
+if(search not in amazon_cart_list):
+    print(f"{search} doesnt exist. Please add the product")
+# else:
+#     print(f"{search} doesnt exist. Please add the product")
